@@ -1,0 +1,37 @@
+{
+  "name": "firestore-csv-import",
+  "version": "1.0.0",
+  "description": "CLI tools for importing csv files to firestore documents",
+  "keywords": [
+    "Firebase",
+    "Firestore"
+  ],
+  "homepage": "https://github.com/ya-s-u/firestore-csv-import",
+  "bugs": {
+    "url": "https://github.com/ya-s-u/firestore-csv-import/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ya-s-u/firestore-csv-import.git"
+  },
+  "license": "MIT",
+  "author": "ya-s-u",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": "./dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "csv-parse": "^5.5.0",
+    "firebase-admin": "^11.10.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
