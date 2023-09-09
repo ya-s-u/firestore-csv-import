@@ -23,7 +23,7 @@ id,name,point
 
 ### Output
 
-<img width="984" alt="スクリーンショット 2023-09-10 8 10 51" src="https://github.com/ya-s-u/firestore-csv-import/assets/6612882/36ba5d0b-06b3-4ce0-a947-cfcea78be319">
+<img width="984" alt="スクリーンショット 2023-09-10 8 10 51" src="https://github.com/ya-s-u/firestore-csv-import/assets/6612882/1637be36-7265-4ddd-a896-f767ca873ce1">
 
 ## Options
 
