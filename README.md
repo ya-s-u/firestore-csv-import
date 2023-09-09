@@ -12,37 +12,41 @@ $ npx firestore-csv-import <csv path> -c <collection name> -p <certification pat
 $ npx firestore-csv-import test.csv -c tests -p key.json -k id -t date -i id
 ```
 
-### Import csv file
+### Input
 
-```
+```csv
 id,name,point
 1,hoge,1
 2,fuga,2
 3,piyo,3
 ```
 
+### Output
+
+<img width="984" alt="スクリーンショット 2023-09-10 8 10 51" src="https://github.com/ya-s-u/firestore-csv-import/assets/6612882/36ba5d0b-06b3-4ce0-a947-cfcea78be319">
+
 ## Options
 
 ### `-c`, `--collection`
 
-firestore collection name
+Firestore collection name
 
 ### `-p`, `--path`
 
-firebase certification file path
+Firebase certification file path
 
 ### `-k`, `--key`
 
-firestore id field
+Firestore id field
 
 ### `-t`, `--timestamp`
 
-firestore timestamp field (default: false)
+Firestore timestamp field (default: false)
 
 ### `-i`, `--ignore`
 
-ignore fields \*commma separated
+Ignore fields \*commma separated
 
 ### `-h`, `--help`
 
-display help for command
+Display help for command
